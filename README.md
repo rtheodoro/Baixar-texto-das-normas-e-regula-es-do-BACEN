@@ -7,6 +7,18 @@ Estrutura do Repositório
 
     webscrapping_txt_normas_bacen.R: Script para baixar dados normativos do site do Banco Central do Brasil em formato JSON, processá-los e extrair informações específicas.
 
+### Resultados obtidos
+
+```r
+> names(normative_data)
+ [1] "title"                   "RefinableString01"       "AssuntoNormativoOWSMTXT" "ResponsavelOWSText"      "listItemId"              "TipodoNormativoOWSCHCS"  "NumeroOWSNMBR"           "RevogadoOWSBOOL"         "HitHighlightedSummary"  
+[10] "CanceladoOWSBOOL"        "data"                    "RefinableString03"       "RowNumber"
+
+> names(normative_txt)
+ [1] "Titulo"           "Tipo"             "DOU"              "Id"               "Data"             "DataTexto"        "Numero"           "Assunto"          "Revogado"         "Cancelado"        "Texto"            "Voto"            
+[13] "Documentos"       "VersaoNormativo"  "NormasVinculadas" "Referencias"      "Atualizacoes"    
+```
+
 ### Funcionalidades
 Análise de Normativos
 
