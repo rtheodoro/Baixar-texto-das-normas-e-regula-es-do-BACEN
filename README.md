@@ -23,7 +23,8 @@ Estrutura do Repositório
 Análise de Normativos
 
 Os scripts baixam dados normativos em formato JSON do site do Banco Central do Brasil e extraem informações específicas.
-Definindo Parâmetros
+
+### Definindo Parâmetros
 
 Antes de executar as funções para baixar e processar os normativos, é necessário definir os parâmetros de data e termos de busca. Esta seção é essencial para delimitar o período e os termos de interesse nos dados a serem baixados.
 
