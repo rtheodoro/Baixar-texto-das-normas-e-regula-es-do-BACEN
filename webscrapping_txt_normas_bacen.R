@@ -113,6 +113,6 @@ normative_txt <- download_texto_normativo(normative_data)
 
 # Salvar os dados --------------------------------------------------------
 
-readr::write_csv(normative_txt, "normative_txt_2000a202405.csv")
-readr::write_csv(normative_data, "normative_data_2000a202405.csv")
+readr::write_csv(normative_txt, glue::glue("normative_txt_{ini_date}a{end_date}.csv"))
+readr::write_csv(normative_data, glue::glue("normative_data_{ini_date}a{end_date}.csv"))
 
